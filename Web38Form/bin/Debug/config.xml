@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Конфігураційний файл у форматі ХМЛ -->
+<Web>
+
+    <!-- ІР-адрес сервера -->
+    <IPSocketWork>127.0.0.1</IPSocketWork>
+
+    <!-- Порт -->
+    <PortSocketWork>5656</PortSocketWork>
+
+    <!-- Кількість робочих потоків -->
+    <CountWorkThread>1</CountWorkThread>
+
+    <!-- 
+         Стрічка підключення до 1С
+         Серверний варіант: Srvr ="cd0";Ref="Work";Usr="Админ";pwd=""; -->
+    <ConnectString>
+          <![CDATA[File="D:\1C\1C83\SC";Usr="Web";Pwd="1";]]>
+    </ConnectString>
+
+</Web>
